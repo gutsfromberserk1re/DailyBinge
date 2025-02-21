@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Binge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daily Binge</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#health">Health</a></li>
+                <li><a href="#gaming">Gaming</a></li>
+                <li><a href="#world">World</a></li>
+                <li><a href="#tech">Tech</a></li>
+                <li><a href="#life">Life</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section id="latest-news">
+                <!-- Latest 6 articles will be added dynamically here -->
+            </section>
+            <section id="featured-article">
+                <!-- The main featured article will be added dynamically here -->
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Daily Binge. All rights reserved.</p>
+        <div id="newsletter-signup">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="YOUR_MAILCHIMP_FORM_URL" method="post">
+                <input type="email" name="EMAIL" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
